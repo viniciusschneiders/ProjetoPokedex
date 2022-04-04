@@ -1,0 +1,10 @@
+charmander #F57D31
+
+squirtle #6493EB
+
+
+gastly #70559B
+
+pikachu #F9CF30
+
+bulbasaur #74CB48

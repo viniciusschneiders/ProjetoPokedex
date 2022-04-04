@@ -1,0 +1,296 @@
+/* RESETS */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.nome-pokemon {
+
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+p {
+    font-family: Poppins;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #485461;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.wrapper { /*CORPO DA LISTA DE POKEMONS */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 700px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+      
+}
+
+.wrapper2 { /*CORPO DA LISTA DE POKEMONS */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 700px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+      
+}
+
+
+.wrapper3 { /*CORPO DA LISTA DE POKEMONS */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 700px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+      
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 12%;
+    border-radius: 10px 10px 0 0;
+  
+}
+
+.header-filho {
+
+    display: flex;
+    width: 98%;
+    height: 40%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* INICIO ICONE LEFT ARROW */
+
+.left-arrow {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+}
+
+
+.icone {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    
+
+}
+
+/* FINAL ICONE LEFT ARROW */
+
+/* INICIO ICONE MENU HAMBURGUER */
+
+.hamburguer-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20%;
+    margin-top: 4px;
+
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+/* FINAL ICONE MENU HAMBURGUER */
+
+/* INICIO TITULO POKEDEX*/
+
+h1.titulo {
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 5px;
+
+}
+
+div.titulo {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 58%;
+    height: 80%;
+    
+}
+
+/* FINAL TITULO POKEDEX*/
+
+/* -----------------------------------*/
+
+
+
+/* -----------------------------------*/
+
+/* INICIO DA LISTA DE POKEMONS */
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 85%;
+    
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width: 160px;
+    height: 110px;
+    border-radius: 20px; 
+    margin-top: 5px;
+    
+}
+
+.top {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 95%;
+    height: 25%;
+    margin-left: 20px;
+    
+}
+
+.bot {
+    display: flex;
+    width: 100%;
+    height: 70%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background-image: url("./img/Pokeball.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.vetor-pokeball {
+
+    display: flex;
+
+
+}
+
+/* FINAL DA LISTA DE POKEMONS */
+
+
+/* CAIXA DE CADA POKEMON */
+
+li.pokemon-pikachu {
+    background-color: #F9CF30;    ;
+}
+
+li.pokemon-bulbasaur {
+    background-color: #74CB48;
+
+}
+
+li.pokemon-gastly {
+    background-color: #70559B;
+}
+
+li.pokemon-charmander {
+    background-color: #F57D31;
+}
+
+li.pokemon-squirtle {
+    background-color: #6493EB;
+    
+}
+
+.imagem-pikachu {
+    display: flex;
+    width: 70px;
+    height: 70px;
+
+}
+
+
+
+h3.stats-pokemon {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+
+.imagem-bulbasaur {
+    display: flex;
+    width: 70px;
+    height: 70px;
+
+}
+
+.imagem-squirtle {
+    display: flex;
+    
+    width: 70px;
+    height: 70px;
+
+
+}
