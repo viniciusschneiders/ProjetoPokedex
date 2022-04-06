@@ -10,19 +10,6 @@
     box-sizing: border-box;
 }
 
-.nome-pokemon {
-
-    display: flex;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 13px;
-
-}
-p {
-    font-family: Poppins;
-}
-
 body {
     display: flex;
     min-height: 100vh;
@@ -32,14 +19,16 @@ body {
     background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
 }
 
-.main {
+
+.display-principal {
     display: flex;
     justify-content: space-around;
     width: 100%;
+    
 
 }
 
-.wrapper { /*CORPO DA LISTA DE POKEMONS */
+.display1 { /*CORPO DO DISPLAY 1*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +40,7 @@ body {
       
 }
 
-.wrapper2 { /*CORPO DA LISTA DE POKEMONS */
+.display2 { /*CORPO DO DISPLAY 3*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +53,7 @@ body {
 }
 
 
-.wrapper3 { /*CORPO DA LISTA DE POKEMONS */
+.display3 { /*CORPO DO DISPLAY 3*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -76,6 +65,7 @@ body {
       
 }
 
+/* Cabeçalho PokeDex */
 .header {
     display: flex;
     flex-direction: column;
@@ -96,7 +86,9 @@ body {
 
 }
 
-/* INICIO ICONE LEFT ARROW */
+/* FIM Cabeçalho PokeDex */
+
+/* ICONE DE RETORNO */
 
 .left-arrow {
     display: flex;
@@ -105,7 +97,7 @@ body {
 }
 
 
-.icone {
+.return-icon {
     display: flex;
     justify-content: flex-start;
     width: 50%;
@@ -113,9 +105,9 @@ body {
 
 }
 
-/* FINAL ICONE LEFT ARROW */
+/* FIM ICONE DE RETORNO*/
 
-/* INICIO ICONE MENU HAMBURGUER */
+/* MENU HAMBURGUER */
 
 .hamburguer-menu {
     display: flex;
@@ -126,15 +118,15 @@ body {
 
 }
 
-.nav-menu {
+.menu-icon {
     display: flex;
     justify-content: flex-end;
     width: 50%;
 }
 
-/* FINAL ICONE MENU HAMBURGUER */
+/* FIM MENU HAMBURGUER */
 
-/* INICIO TITULO POKEDEX*/
+/* TITULO POKEDEX*/
 
 h1.titulo {
     display: flex;
@@ -158,14 +150,18 @@ div.titulo {
 
 /* FINAL TITULO POKEDEX*/
 
-/* -----------------------------------*/
 
+/* LISTA DE POKEMONS */
 
+.nome-pokemon {
 
-/* -----------------------------------*/
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
 
-/* INICIO DA LISTA DE POKEMONS */
-
+}
 
 ul {
     display: flex;
@@ -226,14 +222,12 @@ li {
 .vetor-pokeball {
 
     display: flex;
-
-
 }
 
 /* FINAL DA LISTA DE POKEMONS */
 
 
-/* CAIXA DE CADA POKEMON */
+/* CAIXA INDIVIDUAL POKEMON */
 
 li.pokemon-pikachu {
     background-color: #F9CF30;    ;
@@ -264,21 +258,6 @@ li.pokemon-squirtle {
 
 }
 
-
-
-h3.stats-pokemon {
-    display: flex;
-    justify-content: center;
-    margin-top: 5%;
-    padding: 2px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 25px;
-}
-
 .imagem-bulbasaur {
     display: flex;
     width: 70px;
@@ -294,3 +273,22 @@ h3.stats-pokemon {
 
 
 }
+
+/* FIM CAIXA INDIVIDUAL POKEMON */
+
+/* STATUS POKEMON */
+
+h3.stats-pokemon {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 25px;
+}
+
+/* FIM STATUS POKEMON */
